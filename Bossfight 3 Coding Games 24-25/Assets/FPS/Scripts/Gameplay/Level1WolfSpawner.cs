@@ -119,7 +119,7 @@ public class WolfAI : MonoBehaviour
     {
         // Apply damage to the player
         // Assuming the player has a method TakeDamage
-        player.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
+        player.GetComponent<playerHealth>().TakeDamage(attackDamage);
         isAttacking = false;
     }
 
